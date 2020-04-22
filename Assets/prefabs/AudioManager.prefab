@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9086484098174038552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9086484098174038554}
+  - component: {fileID: 9086484098174038553}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9086484098174038554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086484098174038552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9086484098174038553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086484098174038552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf63c2a1585c1894091892c74bb28f8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Rocket_Thrust
+    clip: {fileID: 8300000, guid: 55ce5c0c56b634a40a5e42ef5862c577, type: 3}
+    volume: 100
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Launch
+    clip: {fileID: 8300000, guid: 3b1cec95744790649b14be239d69c806, type: 3}
+    volume: 100
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Low_Fuel
+    clip: {fileID: 8300000, guid: f0c62bed7bae6ca4c81e1d3897efa851, type: 3}
+    volume: 1
+    pitch: 0.39
+    loop: 1
+    source: {fileID: 0}
+  - name: Crash
+    clip: {fileID: 8300000, guid: fb39c2e5082a2e64bbda317d765da3de, type: 3}
+    volume: 100
+    pitch: 1.79
+    loop: 0
+    source: {fileID: 0}
+  - name: Start_Screen
+    clip: {fileID: 8300000, guid: 4e0f382bf89717e4caacadddd7e8bbb3, type: 3}
+    volume: 67.8
+    pitch: 1.32
+    loop: 1
+    source: {fileID: 0}
+  - name: End_Screen
+    clip: {fileID: 8300000, guid: a5b2a03ae5de5df47969cc859b9dd1a6, type: 3}
+    volume: 100
+    pitch: 1.32
+    loop: 1
+    source: {fileID: 0}
+  - name: Main_Sound
+    clip: {fileID: 8300000, guid: eebfabf4c71cb994b9674ebe6fba6d98, type: 3}
+    volume: 100
+    pitch: 1.18
+    loop: 1
+    source: {fileID: 0}
+  - name: Success_Sound
+    clip: {fileID: 8300000, guid: f9e0881d8c7428c48b6c0c29ea0b7200, type: 3}
+    volume: 100
+    pitch: 1.18
+    loop: 1
+    source: {fileID: 0}
